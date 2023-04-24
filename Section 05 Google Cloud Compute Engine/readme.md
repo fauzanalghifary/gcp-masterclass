@@ -29,3 +29,15 @@
 - Images are used to create VM instances.
 - Images contain a bootable operating system and application software needed to run your applications.
 - GCE uses the selected image to create a persistent boot disk for your VM instance.
+
+## Containers
+
+- Containers are a lightweight alternative to virtual machines.
+- Containers are a way to package and run an application and its dependencies in a loosely isolated environment.
+- Containers are similar to virtual machines, but they have relaxed isolation properties for increased efficiency and density.
+- Containers are managed by a container runtime, such as Docker.
+- GCE supports Docker containers.
+
+## Google Kubernetes Engine
+
+- Kubernetes Engine is a managed, production-ready environment for deploying containerized applications.
